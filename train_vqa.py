@@ -22,7 +22,7 @@ from torch.utils.data import DataLoader
 import torch.backends.cudnn as cudnn
 import torch.distributed as dist
 
-from models.blip_vqa import blip_vqa
+from models_blip.blip_vqa import blip_vqa
 import utils
 from utils import cosine_lr_schedule
 from data import create_dataset, create_sampler, create_loader

@@ -24,7 +24,7 @@ from torch.utils.data import DataLoader
 import torch.backends.cudnn as cudnn
 import torch.distributed as dist
 
-from models.blip_nlvr import blip_nlvr
+from models_blip.blip_nlvr import blip_nlvr
 
 import utils
 from utils import cosine_lr_schedule, warmup_lr_schedule

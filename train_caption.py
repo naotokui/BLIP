@@ -22,7 +22,7 @@ import torch.backends.cudnn as cudnn
 import torch.distributed as dist
 from torch.utils.data import DataLoader
 
-from models.blip import blip_decoder
+from models_blip.blip import blip_decoder
 import utils
 from utils import cosine_lr_schedule
 from data import create_dataset, create_sampler, create_loader
